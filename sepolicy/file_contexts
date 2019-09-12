@@ -32,8 +32,10 @@
 # non-hlos mount points
 /firmware                                                  u:object_r:firmware_file:s0
 
-# perf
-/system/bin/perfservice                                    u:object_r:perfservice_exec:s0
+# Perf
+/system/bin/perfservice                                                                   u:object_r:perfservice_exec:s0
+/sys/devices/soc.0/qcom,gpubw.38/devfreq/qcom,gpubw.38(/.*)?                              u:object_r:sysfs_devfreq:s0
+/sys/devices/soc.0/qcom,cpubw.50/devfreq/qcom,cpubw.50(/.*)?                              u:object_r:sysfs_devfreq:s0
 
 # Sensor
 /(vendor|system/vendor)/bin/hw/android\.hardware\.sensors@1\.0-service\.s2                u:object_r:hal_sensors_default_exec:s0
