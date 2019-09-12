@@ -1,0 +1,2 @@
+allow dataservice_app default_android_hwservice:hwservice_manager find;
+allow dataservice_app ims:binder { call transfer };
