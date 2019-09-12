@@ -1,1 +1,3 @@
 allow cnd self:capability { chown dac_override fsetid net_raw setgid setuid };
+
+allow cnd default_android_hwservice:hwservice_manager add;
