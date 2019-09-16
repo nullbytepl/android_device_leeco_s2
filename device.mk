@@ -261,7 +261,7 @@ PRODUCT_COPY_FILES += \
 
 # IMS
 PRODUCT_PACKAGES += \
-    ims-ext-common \
+    ims-ext-common_system \
     ims_ext_common.xml
 
 # IPA Manager
@@ -408,6 +408,7 @@ PRODUCT_PACKAGES += \
     qti_telephony_hidl_wrapper.xml
 
 PRODUCT_BOOT_JARS += \
+    ims-ext-common_system \
     telephony-ext
 
 # TextClassifier smart selection model files
