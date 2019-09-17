@@ -1,5 +1,6 @@
-# Amplifier
+# Audio
 /dev/i2c_smartpa                                           u:object_r:audio_device:s0
+/data/vendor/audio(/.*)?                                   u:object_r:audio_data_file:s0
 
 # Camera
 /data/vendor/qcam(/.*)?                                    u:object_r:vendor_camera_data_file:s0
