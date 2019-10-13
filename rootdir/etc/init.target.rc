@@ -173,6 +173,15 @@ on property:persist.usb.chgdisabled=1
 on property:persist.usb.chgdisabled=0
     write /sys/class/power_supply/battery/charging_enabled 1
 
+service vendor.set_baseband /system/bin/sh /vendor/etc/init/hw/set_baseband.sh
+    class late_start
+    user root
+    oneshot
+    disabled
+
+on property:sys.boot_completed=1
+    start vendor.set_baseband
+
 service vendor.qseecomd /system/vendor/bin/qseecomd
    class core
    user root

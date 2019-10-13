@@ -372,6 +372,7 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.target.rc \
     init.s2.usb.rc \
+    set_baseband.sh \
     ueventd.qcom.rc \
     init.safailnet.rc
 
