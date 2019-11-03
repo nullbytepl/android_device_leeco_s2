@@ -53,16 +53,29 @@ vendor/lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
 vendor/lib/libDiracAPI_SHARED.so|42b49679d38eca93fead05ea06ddbdc8108fd4b1
 vendor/etc/diracmobile.config|d781cd6798a7481a8f7128d144abfb2b8794212d
 
-# Bluetooth - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|9178856dc8651b499d1b155825b6115a486ee05e
+# Bluetooth - from OnePlus5T - PKQ1.180716.001/1907311828
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|9f0bbbbc45cd57eed0175c1ff06b83473ea5c392
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|8c68d863da2456efbc95046519b99f23e517c9ab
-vendor/lib64/libbtnv.so|35444e0ca93a50751db92aa4871cf277dc66b1fa
-vendor/lib64/libbt-hidlclient.so|0b0b69ef9787e3cd5409f0050cad03698dd6ce26
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|07f0271c81a381125e53692e7d175141dc6e5d56
+vendor/lib64/libbtnv.so|11b97e25199558009e1df72bd002a97bb45fa8dc
+vendor/lib64/libbt-hidlclient.so|0fea38b7a4db63c759f3c962627596db601a14ec
 
-# Bluetooth (shared dependencies) - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
-vendor/lib64/com.qualcomm.qti.ant@1.0.so|3a19c81d66ef1190d0b2f361420d5cbf707cc600
-vendor/lib64/vendor.qti.hardware.fm@1.0.so|dc576dfcb0bf390a106b5ed8861e7f547110cbf1
+# Bluetooth (Audio) - from OnePlus5T - PKQ1.180716.001/1907311828
+vendor/lib64/hw/audio.bluetooth_qti.default.so|92ec8f9d7e845499eb4946d7d624955e58f15bed
+vendor/lib64/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so|d8d9057bc9f361b16c26a24d69c3deb552cdfb2f
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|986e860719653863178fdcf69e825f625809e75d
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|e860885f2ed838802b7e26d7ad6fd44e6767afc2
+vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|a3e1790bd8da3f0a0ad0c7c08de8509c366331b0
+vendor/lib64/libbluetooth_audio_session_qti.so|076b318c7ea1b04cebd86ceb9972fd7f62271428
+vendor/lib64/libldacBT_abr.so|9a480274874c70601d4ad6a8723c6de30fc8a0e5
+vendor/lib64/libldacBT_enc.so|f220e4c4e21eb1626269844dd9c17e271c625e21
+vendor/lib64/vendor.qti.hardware.bluetooth_audio@2.0.so|6d6e3fba1f9c76f94361f8b528c84633df6c2fc0
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|6d532b17c0b32373e4f96fb7bc8eac2f6565ff02
+vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so|222bd2213d6833d23d77f547d4b8dfd18bb9e121
+
+# Bluetooth (shared dependencies) - from OnePlus5T - PKQ1.180716.001/1907311828
+vendor/lib64/com.qualcomm.qti.ant@1.0.so|05e6190e6feb2f23b86e1ce4517b73712465bb2d
+vendor/lib64/vendor.qti.hardware.fm@1.0.so|7c3b481cc7ac328f26577b24cef4b29bb2cbabdd
 
 # Bluetooth - aptX - from crosshatch-user 10 QP1A.190711.020 5800535 release-keys
 lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
