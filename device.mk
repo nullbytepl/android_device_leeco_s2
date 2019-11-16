@@ -211,8 +211,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/ad_calib.cfg:$(TARGET_COPY_OUT_SYSTEM)/etc/ad_calib.cfg
 
 # Device specific settings
-#PRODUCT_PACKAGES += \
-#    LeEcoParts
+PRODUCT_PACKAGES += \
+    LeEcoParts
 
 # Fake logprint for fingerprint libs
 PRODUCT_PACKAGES += \
